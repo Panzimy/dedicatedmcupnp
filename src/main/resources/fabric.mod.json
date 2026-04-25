@@ -9,8 +9,7 @@
 		"lmaoDick1239"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Panzimy/dedicatedmcupnp"
 	},
 	"license": "MIT",
 	"icon": "assets/dedicatedmcupnp/icon.png",
