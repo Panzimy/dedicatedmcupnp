@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "dedicatedmcupnp",
+	"version": "${version}",
+	"name": "UPnP for dedicated servers",
+	"authors": [
+		"Pigcart",
+		"Panzimy",
+		"lmaoDick1239"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dedicatedmcupnp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pigcart.dedicatedmcupnp.MOD"
+		]
+	},
+	"mixins": [
+		"dedicatedmcupnp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": [
+			"1.21.11",
+			"26.1.0",
+			"26.1.1",
+			"26.1.2"
+		],
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
