@@ -15,6 +15,6 @@ This primarily just wraps the [WaifUPnP](https://github.com/adolfintel/WaifUPnP)
 
 ## Downloads
 
-- [Modrinth](https://modrinth.com/modupnp-for-dedicated-servers)
+- [Modrinth](https://modrinth.com/mod/upnp-for-dedicated-servers)
 - [Original mod (Modrinth)](https://modrinth.com/mod/dedicatedmcupnp)
 - [Original mod (Curseforge)](https://curseforge.com/minecraft/mc-mods/dedicatedmcupnp)
