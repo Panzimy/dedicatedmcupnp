@@ -1,4 +1,4 @@
-# PLEASE READ
+## PLEASE READ
 This is a [recreation of mod by Pigcart](https://github.com/PigCart/dedicatedmcupnp) with architectury
 # UPNP for dedicated Minecraft servers
 
