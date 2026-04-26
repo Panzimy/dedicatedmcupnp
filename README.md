@@ -1,3 +1,5 @@
+# PLEASE READ
+This is a [recreation of mod by Pigcart](https://github.com/PigCart/dedicatedmcupnp) with architectury
 # UPNP for dedicated Minecraft servers
 
 UPNP for dedicated Fabric/NeoForge Minecraft Servers (as opposed to LAN servers, which there are plenty of other equivalent mods for).
@@ -8,10 +10,11 @@ Both UDP and TCP ports can be opened. By default, only TCP port 25565 will be op
 
 You can use an [online port checker](https://www.ecosia.org/search?q=open%20port%20checker) to check if a port is open.
 
-This primarily just wraps the [WaifUPnP](https://github.com/adolfintel/WaifUPnP) library as a minecraft mod,
-binding the functions of the library to the server lifecyle and a command. The library has been modified slightly to log errors and implement some of the pending PRs on the original project as well as bugfixes from its forks.
+This primarily just wraps the [WaifUPnP](https://github.com/adolfintel/WaifUPnP) library as a minecraft mod, which is a little bit old (planing revork), binding the functions of the library to the server lifecyle and a command. The library has been modified slightly to log errors and implement some of the pending PRs on the original project as well as bugfixes from its forks.
 
 
 ## Downloads
 
 - [Modrinth](https://modrinth.com/modupnp-for-dedicated-servers)
+- [Original mod (Modrinth)](https://modrinth.com/mod/dedicatedmcupnp)
+- [Original mod (Curseforge)](https://curseforge.com/minecraft/mc-mods/dedicatedmcupnp)
