@@ -4,19 +4,20 @@
 	"version": "${version}",
 	"name": "UPnP for dedicated servers",
 	"authors": [
-		"Pigcart",
-		"Panzimy",
-		"lmaoDick1239"
+		"Pigcart (1.16.5-1.21.8",
+		"Panzimy (1.21.11+)",
+		"lmaoDick1239 (updated 1.21.8)"
 	],
 	"contact": {
-		"sources": "https://github.com/Panzimy/dedicatedmcupnp"
+		"sources": "https://github.com/Panzimy/dedicatedmcupnp",
+		"issues": "https://github.com/Panzimy/dedicatedmcupnp/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/dedicatedmcupnp/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"pigcart.dedicatedmcupnp.MOD"
+			"pigcart.dedicatedmcupnp.fabric.DedicatedMCUpnpFabric"
 		]
 	},
 	"mixins": [

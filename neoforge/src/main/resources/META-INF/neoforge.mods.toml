@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[10,)"
+issueTrackerURL = "https://github.com/Panzimy/dedicatedmcupnp/issues"
+license = "MIT"
+
+[[mods]]
+modId = "dedicatedmcupnp"
+version = "${version}"
+displayName = "UPnP for dedicated servers"
+authors = "Pigcart (1.16.5-1.21.8), Panzimy (1.21.11+), lmaoDick1239 (updated 1.21.8)"
+logoFile = "assets/dedicatedmcupnp/icon.png"
+
+[[dependencies.dedicatedmcupnp]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.11,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dedicatedmcupnp]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.11,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "dedicatedmcupnp.mixins.json"

@@ -1,9 +1,17 @@
-# UPnP for dedicated servers
+# UPNP for dedicated Minecraft servers
 
-## Setup
+UPNP for dedicated Fabric/NeoForge Minecraft Servers (as opposed to LAN servers, which there are plenty of other equivalent mods for).
+Opens ports when the server starts, and closes them when it stops.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+The forwarded ports are configurable in the config file at `config/upnp.txt`.
+Both UDP and TCP ports can be opened. By default, only TCP port 25565 will be opened (the default port for minecraft). If you are using mods such as Simple Voice Chat or Geyser, you must add the relevant ports to the config.
 
-## License
+You can use an [online port checker](https://www.ecosia.org/search?q=open%20port%20checker) to check if a port is open.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This primarily just wraps the [WaifUPnP](https://github.com/adolfintel/WaifUPnP) library as a minecraft mod,
+binding the functions of the library to the server lifecyle and a command. The library has been modified slightly to log errors and implement some of the pending PRs on the original project as well as bugfixes from its forks.
+
+
+## Downloads
+
+- [Modrinth](https://modrinth.com/modupnp-for-dedicated-servers)
