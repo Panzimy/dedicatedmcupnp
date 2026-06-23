@@ -5,7 +5,7 @@ license = "MIT"
 
 [[mods]]
 modId = "dedicatedmcupnp"
-version = "3.1.1"
+version = "4.0.0"
 displayName = "UPnP for dedicated servers"
 authors = "Pigcart (1.16.5-1.21.8), Panzimy (1.21.11+), lmaoDick1239 (updated 1.21.8)"
 logoFile = "assets/dedicatedmcupnp/icon.png"
