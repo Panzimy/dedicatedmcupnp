@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "dedicatedmcupnp",
-	"version": "${version}",
+	"version": "4.0.0",
 	"name": "UPnP for dedicated servers",
 	"authors": [
 		"Pigcart (1.16.5-1.21.8",
@@ -26,7 +26,6 @@
 	"depends": {
 		"fabricloader": ">=0.19.2",
 		"minecraft": [
-			"1.21.11",
 			"26.1.0",
 			"26.1.1",
 			"26.1.2",
